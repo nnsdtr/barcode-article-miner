@@ -22,3 +22,7 @@ Unpublished
 
 ### Author
 * **Nunes, D.T.** - [nnsdtr](https://github.com/nnsdtr)
+
+### See also
+* [GenBank-lit2tab](https://github.com/nnsdtr/GenBank-lit2tab)
+* [multiple-pdf2txt](https://github.com/nnsdtr/multiple-pdf2txt)
