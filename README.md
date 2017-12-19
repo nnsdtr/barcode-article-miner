@@ -15,3 +15,10 @@ Python, version 3.5.2-release (x86_64-pc-linux-gnu). Copyright (C) 2001-2017 Pyt
 Unpublished
 
 ## Laboratory
+[logo]: https://github.com/nnsdtr/barcode-article-miner/blob/master/lbmcf-logo.png
+
+![alt text][logo]
+* **Laboratory of Molecular and Computational Biology of Fungi** *(LBMCF, ICB - UFMG, Belo Horizonte, Brazil)*
+
+### Author
+* **Nunes, D.T.** - [nnsdtr](https://github.com/nnsdtr)
