@@ -18,7 +18,7 @@ Unpublished
 [logo]: https://github.com/nnsdtr/barcode-article-miner/blob/master/lbmcf-logo.png
 
 ![alt text][logo]
-* [**Laboratory of Molecular and Computational Biology of Fungi**](https://sites.icb.ufmg.br/lbmcf/) *(LBMCF, ICB - UFMG, Belo Horizonte, Brazil)*
+* [**Molecular and Computational Biology of Fungi Laboratory**](https://sites.icb.ufmg.br/lbmcf/) *(LBMCF, ICB - UFMG, Belo Horizonte, Brazil)*
 
 ### Author
 * **Nunes, D.T.** - [nnsdtr](https://github.com/nnsdtr)
