@@ -1,6 +1,9 @@
 # DNA Barcoding in Fungi: barcode-article-miner
 
-This text-mining python script was built to detect the presence of selected biomarker and purpose terms specifically within the Methods section on the body of the analyzed papers. For (1) biomarker terms we selected "ITS", "18S", "28S", "RPB", "RPB1", "RPB2", "EF1α" and "β-tubulin”, and for (2) purpose terms, "phylogeny" and "identification". (For further information, see the reference cited below)
+Detection of biomarker and purpose terms were performed on Materials and Methods sections of the parsed papers using a text mining script written in Python. The script does the process automatically for multiple plain text files inside a specified folder. (For further information, see the reference cited below)
+
+## Example call:
+**barcode-article-miner.py /home/user/multiple-txtfiles-folder/**
 
 ## Python version
 
