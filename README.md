@@ -1,6 +1,6 @@
-# DNA Barcoding in Fungi: barcode-article-miner
+# DNA Barcoding in : barcode-article-miner
 
-Detection of biomarker and purpose terms were performed on Materials and Methods sections of the parsed papers using a simple text mining script written in Python. The script does the process automatically for multiple plain text files inside a specified folder. (For further information, see the reference cited below)
+Detection of biomarker and purpose terms were performed on  and Methods sections of the parsed papers using a simple text mining script written in Python. The script does the process automatically for multiple plain text files inside a specified folder. (For further information, see the reference cited below)
 
 ## Example call:
 `barcode-article-miner.py /home/user/multiple-txtfiles-folder/`
@@ -21,7 +21,7 @@ Unpublished
 [logo]: https://github.com/nnsdtr/barcode-article-miner/blob/master/lbmcf-logo.png
 
 ![alt text][logo]
-* [**Molecular and Computational Biology of Fungi Laboratory**](https://sites.icb.ufmg.br/lbmcf/) *(LBMCF, ICB - UFMG, Belo Horizonte, Brazil)*
+* [**Molecular and Computational Biology of  Laboratory**](https://sites.icb.ufmg.br/lbmcf/) *(LBMCF, ICB - UFMG, Belo Horizonte, Brazil)*
 
 ### Author
 * **Nunes, D.T.** - [nnsdtr](https://github.com/nnsdtr)
