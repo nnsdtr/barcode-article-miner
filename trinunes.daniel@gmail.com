@@ -1,6 +1,6 @@
 # DNA Barcoding in Fungi: barcode-article-miner
 
-Detection of biomarker and purpose terms were performed on Materials and Methods sections of the parsed papers using a text mining script written in Python. The script does the process automatically for multiple plain text files inside a specified folder. (For further information, see the reference cited below)
+Detection of biomarker and purpose terms were performed on Materials and Methods sections of the parsed papers using a simple text mining script written in Python. The script does the process automatically for multiple plain text files inside a specified folder. (For further information, see the reference cited below)
 
 ## Example call:
 `barcode-article-miner.py /home/user/multiple-txtfiles-folder/`
