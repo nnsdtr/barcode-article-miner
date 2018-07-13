@@ -17,10 +17,8 @@ import re
 #  PHY:   "phylogeny" related term
 #  IDNT:  "identification" related term
 
-
 # Open output and Write header:
-output_filename='miner-output.txt'
-output=open(output_filename, 'w')
+output=open('miner-output.txt', 'w')
 header_row=['Filename','PHY','IDNT','ITS','18S','28S','RPB1','RPB2','TUB','TEF1']
 header='\t'.join(header_row)+"\n"
 output.write(header)
@@ -32,7 +30,7 @@ except IndexError:
   print("\n"+"-"*50)
   print("Remember that you can also use path as a\nparameter for the script. Example call:\n\nbarcode-article-miner.py /home/user/text_directory")
   print("-"*50+"\n")
-  print("\nPlease, insert bellow the path to the directory where the publication text files are located:\n")
+  print("\nPlease, insert bellow the path to the directory where the articles text files are located:\n")
   path=input("Path: ")
 print("\n")
 
@@ -54,11 +52,11 @@ for filepath in glob.glob(os.path.join(path, '*.txt')):
   with codecs.open(filepath, encoding= "utf-8", errors= "ignore") as handle:
     txt = handle.readlines()
 
-  # Text pre-processing (we've changed some characters for better coding with regex):
+  # Text pre-processing (we've changed some characters to "⋅" for better coding with regex):
   for k in range(0,len(txt)):
     txt[k]=txt[k].replace("\t","⋅")
     txt[k]=txt[k].replace(" ","⋅")
-    txt[k]=txt[k].replace(" ","⋅")
+    txt[k]=txt[k].replace(" ","⋅")
     txt[k]=txt[k].replace(" ","⋅")
     txt[k]=txt[k].replace("ﬁ","fi")
 
@@ -161,7 +159,7 @@ for filepath in glob.glob(os.path.join(path, '*.txt')):
   # Filter out inoperable publications:
   filtrate = []
   if "MAME" in sorted_title_dict:             # MAME must be present
-    if sorted_title_dict[-1] != 'MAME':       # MAME must not be the last, otherwise limits of the section cannot be found.
+    if sorted_title_dict[-1] != 'MAME':       # MAME must not be the last, otherwise limits of the section can't be found.
       if 'INT' in sorted_title_dict:          
         for i in range(0,len(sorted_title_dict)):   # Find the order sequence between INT and MAME for the next process.
           if sorted_title_dict[i] == 'MAME':
@@ -273,5 +271,3 @@ accuracyMAME=round(100*num_accepted_articles/filenumber,2)
 
 print("Number of operable publications: ", str(num_operable_articles),"/",str(filenumber),"=",accuracy,"%")
 print("No. pub. returning 'PHY' or 'IDNT': ", str(num_accepted_articles), "/",str(filenumber),"=",accuracyMAME,"%\n")
-print("Output saved as: " + output_filename)
-print("\n")
