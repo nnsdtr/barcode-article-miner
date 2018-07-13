@@ -15,7 +15,7 @@ Python, version 3.5.2-release (x86_64-pc-linux-gnu). Copyright (C) 2001-2017 Pyt
 
 ## Reference
 
-Unpublished
+Badotti, F., Fonseca, P. L. C., Tomé, L. M. R., Nunes, D. T., & Góes-Neto, A. (2018). ITS and secondary biomarkers in fungi: review on the evolution of their use based on scientific publications. Brazilian Journal of Botany, 1-9.
 
 ## Laboratory
 [logo]: https://github.com/nnsdtr/barcode-article-miner/blob/master/lbmcf-logo.png
